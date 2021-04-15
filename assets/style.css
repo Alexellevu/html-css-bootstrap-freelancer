@@ -29,3 +29,9 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.about{
+    background-color: #1ABC9C;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
