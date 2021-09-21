@@ -1,5 +1,13 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .jumbo{
@@ -24,6 +32,7 @@ body{
 
 .line_color{
     border-bottom:2px solid #212529;
+    display: inline-block;
     width: 90px;
     margin-bottom: 7px;
     margin-left: 15px;
@@ -32,6 +41,19 @@ body{
 
 .about{
     background-color: #1ABC9C;
-    padding-top:30px;
-    padding-bottom: 30px;
+ 
 }
+
+.contacts{
+    
+}
+
+.form>input ,textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1px solid gray;
+    padding: 5px;
+    
+}
+
