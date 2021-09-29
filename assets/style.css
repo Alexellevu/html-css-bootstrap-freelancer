@@ -66,3 +66,21 @@ body{
     background-color: #212529;
 }
 
+@media screen and (max-width: 480px)
+{
+    h1{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 480px)
+{
+   .line , .line_color{
+       width: 50px;
+   }
+
+}
+
+
+
